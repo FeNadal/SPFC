@@ -205,6 +205,7 @@ footer {
 
 .area-produto{
     background-color: black;
+    padding-top: 40px;
 }
 
 .texto{
@@ -215,6 +216,8 @@ footer {
 
 .lista-produto{
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .quadrado-esquerda,
@@ -227,13 +230,37 @@ footer {
     border: 5px solid red;
     border-radius: 4%;
     transition: 1s;
-    margin: 10px;
+    margin: 30px;
     display: inline-block;
+    position: relative;
+}
+
+.quadrado-esquerda{
+    background-image: url('Assets/Imagens/camiseta.jpg'); /* imagem no quadrado */
+    background-size: cover; /* imagem de fundo cubra toda a div */
+    opacity: 0.7;
+}
+.quadrado-central{
+    background-image: url('Assets/Imagens/acessorio.jpg'); /* imagem no quadrado */
+    background-size: cover; /* imagem de fundo cubra toda a div */
+    opacity: 0.7;
+}
+.quadrado-direita{
+    background-image: url('Assets/Imagens/pet.jpg'); /* imagem no quadrado */
+    background-size: cover; /* imagem de fundo cubra toda a div */
+    opacity: 0.7;
 }
 
 .quadrado-esquerda:hover,
 .quadrado-central:hover,
 .quadrado-direita:hover{
-    opacity: 0.7;
+    opacity: 0.2;
     transform: scale(1.1);
+}
+
+.texto-quadrado {
+    position: center;
+    color: red;
+    font-size: 25px;
+    text-shadow: 0 0 10px black;
 }
