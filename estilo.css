@@ -20,6 +20,9 @@ header {
 /* Define a largura do logotipo como 45% do elemento pai */
 .logo {
     width: 25%;
+    transition: 1s;
+    display: inline-block;
+    position: relative;
 }
 
 /* Estilização do MENU */
