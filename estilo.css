@@ -238,7 +238,7 @@ footer {
 .quadrado-esquerda{
     background-image: url('Assets/Imagens/camiseta.jpg'); /* imagem no quadrado */
     background-size: cover; /* imagem de fundo cubra toda a div */
-    opacity: 0.7;
+    opacity: 1;
 }
 .quadrado-central{
     background-image: url('Assets/Imagens/acessorio.jpg'); /* imagem no quadrado */
