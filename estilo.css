@@ -23,9 +23,11 @@ header {
     transition: 1s;
     position: relative;
 }
+
 .logo:hover{
     opacity: 0.5;
     transform: scale(1.1);
+}
 
 /* Estilização do MENU */
 
