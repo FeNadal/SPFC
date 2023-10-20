@@ -270,3 +270,15 @@ footer {
     font-size: 25px;
     text-shadow: 0 0 10px black;
 }
+
+/*Estilização da Página Contato*/
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+}
+
+.texto-padrao{
+    color:aliceblue;
+}
